@@ -1,0 +1,68 @@
+{
+
+    "app_projects": [
+        {
+            "project_name": "Travel Planner",
+            "language": "Flutter with Dart",
+            "img": "https://www.fexle.com/blogs/wp-content/uploads/2020/10/travel.jpg",
+            "links": "https://github.com/TabStark/travel_planning_app"
+        },
+        {
+            "project_name": "Covid-19 App",
+            "language": "Flutter with Dart",
+            "img": "https://s.rfi.fr/media/display/4f2978ae-83c3-11ea-b014-005056bff430/w:980/p:16x9/000_1qj10y_0.jpg",
+            "links": "https://github.com/TabStark/covid_app"
+        },
+        {
+            "project_name": "Apple Store App",
+            "language": "Flutter with Dart",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl0ouP5OP3-x7TMQTeBTX4TiwETGAXMaGARQ&usqp=CAU",
+            "links": "https://github.com/TabStark/e_commerce_app"
+        },
+        {
+            "project_name": "Chat App",
+            "language": "Flutter with Dart",
+            "img": "https://appinventiv.com/wp-content/uploads/sites/1/2021/08/firebase-chat-app.png",
+            "links": "https://github.com/TabStark/chat_app"
+        }
+    ],
+
+    "web_projects": [
+        {
+            "project_name": "Movies Web Ap",
+            "language": "HTML, CSS",
+            "img": "https://cdn.dribbble.com/users/775142/screenshots/16184689/media/c7aa9add188850471990039b94d93974.png?resize=400x300&vertical=center",
+            "links": "https://github.com/TabStark/tabstarkmovies",
+            "live": "https://tabstarkmovies.netlify.app"
+        },
+        {
+            "project_name": "ST Architecture",
+            "language": "HTML, CSS, Bootstrap",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC9nA-23teMSrx7W7XmOzeALiWg1perAKLEA&usqp=CAU",
+            "links": "https://github.com/TabStark/bootstarp",
+            "live": "https://starchitecture.netlify.app/"
+        },
+        {
+            "project_name": "Music Player",
+            "language": "HTML, CSS, Javascript",
+            "img": "https://cdn-icons-png.flaticon.com/512/295/295129.png",
+            "links": "https://github.com/TabStark/MusicPlayer",
+            "live": "https://starkmusic.netlify.app"
+        },
+        {
+            "project_name": "Restuarant Web App",
+            "language": "HTML, CSS, Javascript",
+            "img": "https://cdn.dribbble.com/userupload/11585955/file/original-039022a8711142bc6811ab532a0465fd.png?resize=400x0",
+            "links": "https://github.com/TabStark/Bharatian",
+            "live": "https://bharatianroyalfoods.netlify.app"
+        },
+        {
+            "project_name": "Weather Forecast",
+            "language": "HTML, CSS, Javascript",
+            "img": "https://cdni.iconscout.com/illustration/premium/thumb/weather-forecast-2763639-2302833.png",
+            "links": "https://github.com/TabStark/weather-forecast",
+            "live": "https://starkweatherapp.netlify.app"
+        }
+
+    ]
+}
