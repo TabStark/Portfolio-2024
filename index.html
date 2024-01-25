@@ -74,7 +74,7 @@
                 </div>
                 <button class="button" id="downloadbtn">Download Resume</button>
             </div>
-            
+
         </div>
 
     </section>
@@ -109,7 +109,7 @@
                         scalable code. And for collaboration and version control, I rely on Git to keep everything
                         organized.</p>
                 </div>
-                
+
             </div>
         </div>
 
@@ -268,7 +268,7 @@
                     </div>
                     <div class="details">
                         <i class="fa-solid fa-envelope"></i>
-                        <p>tabrezahmedsta01@gmail.com</p>
+                        <p>tabrezahmedsta1@gmail.com</p>
                     </div>
 
                     <div class="details socialicon">
@@ -279,38 +279,41 @@
                             <a href=""><i class="fa-brands fa-github"></i></a>
                         </div>
                         <div class="btn">
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+
                     </div>
-
                 </div>
+                <Form onsubmit="SubmitEmail(event)">
+                <div class="inputs">
+                        <!-- Name -->
+                        <div class="input-group">
+                            <input required="" type="text" id="text" name="text" autocomplete="off"
+                                class="input fromuser">
+                            <label for="text" class="user-label">Your Name</label>
+                        </div>
+                        <!-- email -->
+                        <div class="input-group">
+                            <input required="" type="email" id="text" name="text" autocomplete="off"
+                                class="input fromemail">
+                            <label for="text" class="user-label">Email</label>
+                        </div>
+
+                        <!-- Message -->
+                        <div class="input-group">
+                            <textarea required="" name="text" id="text" cols="30" rows="10" autocomplete="off"
+                                class="input comment frommessage"></textarea>
+                            <label for="text" class="user-label">Comments</label>
+                        </div>
+
+
+                        <!-- Button -->
+                        <button class="submit_button">Submit</button>
+
+                        
+                    </div>
+                </Form>
             </div>
-            <div class="inputs">
-
-                <!-- Name -->
-                <div class="input-group">
-                    <input required="" type="text" id="text" name="text" autocomplete="off" class="input">
-                    <label for="text" class="user-label">Your Name</label>
-                </div>
-                <!-- email -->
-                <div class="input-group">
-                    <input required="" type="email" id="text" name="text" autocomplete="off" class="input">
-                    <label for="text" class="user-label">Email</label>
-                </div>
-
-                <!-- Message -->
-                <div class="input-group">
-                    <textarea required="" name="text" id="text" cols="30" rows="10" autocomplete="off"
-                        class="input comment"></textarea>
-                    <label for="text" class="user-label">Comments</label>
-                </div>
-
-
-                <!-- Button -->
-                <button class="submit_button">Submit</button>
-
-
-            </div>
-        </div>
 
         </div>
 
@@ -322,6 +325,14 @@
     </footer>
 
     <script src="script.js"></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("0qk1fViezbaWziAHZ");
+        })();
+    </script>
 </body>
 
 </html>

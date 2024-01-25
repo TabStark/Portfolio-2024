@@ -69,6 +69,7 @@ sechidden.forEach(el => sec_observer.observe(el));
 async function fetchAppData() {
     let response = await fetch('projects.json')
     let data = await response.json();
+    console.log(data)
     data.app_projects.forEach(value => {
         let div = document.createElement('div')
         div.classList.add('card')
@@ -171,3 +172,25 @@ view_more.addEventListener('click', function(){
         view_more.innerHTML = "View more"
     }
 })
+
+
+let fromuser = document.querySelector('.fromuser')
+let fromemail = document.querySelector('.fromemail')
+let frommessage = document.querySelector('.frommessage')
+
+// Form Submit
+function SubmitEmail(e){
+    e.preventDefault();
+    var params ={
+        from_name: fromuser.value,
+        fromemail: fromemail.value,
+        message: frommessage.value
+    }
+    emailjs.send('service_hf84olp', 'template_kvgd6cn', params).then(function (res){
+        alert("Mail sent Successfully");
+        fromuser.value = ''
+        fromemail.value = ''
+        frommessage.value = ''
+    })
+    
+}
